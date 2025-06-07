@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
+  <diagram name="Page-1" id="lNvU_kxqyc1OZ7GpswzS">
+    <mxGraphModel dx="1052" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.management_console;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="190.25" y="40" width="63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-2" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="372.43" y="40" width="65.63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-3" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#0050ef;strokeColor=#001DBC;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.people_places_things_icons.icon8;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="560.8" y="49.5" width="20.5" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-6" value="Client" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="190.25" y="126" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-7" value="API Getway" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="375.25" y="126" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-8" value="Consumer Services" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="540" y="126" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-9" value="&#xa;&lt;span class=&quot;citation-165 citation-end-165&quot;&gt;Bertanggung jawab untuk mengelola semua data personal konsumen, seperti NIK, nama, alamat, dll&lt;sup class=&quot;superscript&quot; data-turn-source-index=&quot;4&quot;&gt;&lt;/sup&gt;&lt;/span&gt;.&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="525.25" y="180" width="90.25" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-10" value="Bertanggung jawab untuk &lt;em&gt;routing&lt;/em&gt;, &lt;em&gt;load balancing&lt;/em&gt;, otentikasi, dan &lt;em&gt;rate limiting&lt;/em&gt;. Ini menyederhanakan akses client ke &lt;em&gt;microservices&lt;/em&gt;." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="360.25" y="170" width="90" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-11" value="Pengguna akhir yang mengakses sistem melalui berbagai platform." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="176.75" y="180" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-12" value="Transaction Services" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;bpmnShapeType=transaction;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="166.25" y="385" width="111" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-13" value="&lt;span class=&quot;citation-164 citation-end-164&quot;&gt;Bertanggung jawab untuk mengelola semua data transaksi, termasuk pengajuan pinjaman, limit tenor &lt;sup class=&quot;superscript&quot; data-turn-source-index=&quot;5&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span class=&quot;citation-163 citation-end-163&quot;&gt;, dan detail kontrak&lt;sup class=&quot;superscript&quot; data-turn-source-index=&quot;6&quot;&gt;&lt;/sup&gt;&lt;/span&gt;. Layanan ini akan menangani logika bisnis utama seperti pengecekan limit dan pembuatan kontrak baru." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="160" y="530" width="123.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-14" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mysql_database;" vertex="1" parent="1">
+          <mxGeometry x="386.5" y="395" width="37.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-15" value="MySQL DB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="375.25" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-17" value="Setiap layanan memiliki database terisolasi sendiri (&lt;em&gt;Database per Service&lt;/em&gt;) untuk memastikan &lt;em&gt;loose coupling&lt;/em&gt;. &lt;span class=&quot;citation-162&quot;&gt;Ini adalah prinsip inti dari arsitektur &lt;/span&gt;&lt;em&gt;microservices&lt;/em&gt;&lt;span class=&quot;citation-162&quot;&gt; dan mendukung &lt;/span&gt;&lt;em&gt;durability&lt;/em&gt;&lt;span class=&quot;citation-162&quot;&gt; dan &lt;/span&gt;&lt;em&gt;consistency&lt;/em&gt;&lt;span class=&quot;citation-162 citation-end-162&quot;&gt; (ACID) pada level layanan.&lt;sup class=&quot;superscript&quot; data-turn-source-index=&quot;7&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="343.5" y="530" width="123.5" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-18" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="540.25" y="395" width="61.59" height="50.5" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-19" value="&lt;span class=&quot;citation-161&quot;&gt;Seluruh layanan dan database akan dijalankan di dalam kontainer Docker, diatur oleh Docker Compose untuk lingkungan pengembangan dan Kubernetes untuk produksi, guna mencapai &lt;/span&gt;&lt;em&gt;high availability&lt;/em&gt;&lt;span class=&quot;citation-161&quot;&gt; dan &lt;/span&gt;&lt;em&gt;scalability&lt;/em&gt;&lt;span class=&quot;citation-161 citation-end-161&quot;&gt;&lt;sup class=&quot;superscript&quot; data-turn-source-index=&quot;8&quot;&gt;&lt;/sup&gt;&lt;/span&gt;." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="508.63" y="530" width="123.5" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-20" value="Containerization (Docker)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="540.25" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="63KGp4usUAZ6CjWQhUcA-21" value="Transaction Services" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="191.75" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
