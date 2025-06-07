@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "f99fee07-7c2d-4128-9e35-a67ea3844fa4",
+		"name": "pt-xyz-case-study",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18292201"
+	},
+	"item": [
+		{
+			"name": "transaksi",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nik\": \"1111222233334444\",\r\n    \"tenor\": 3,\r\n    \"otr\": 100000,\r\n    \"admin_fee\": 1000,\r\n    \"nama_asset\": \"Headphone Keren\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/transaksi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transaksi"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
